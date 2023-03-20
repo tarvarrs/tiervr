@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/XR/Settings/OculusSettings.asset.meta
 guid: d250acabb0ceb450c8f88436112313a3
+========
+guid: 144e7c19d4bfa4d3a857f9ab52807066
+>>>>>>>> c11ce697d53fcdca6257d14725abbbfb110b0323:Assets/XR/Loaders/OpenXRLoader.asset.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 11400000
