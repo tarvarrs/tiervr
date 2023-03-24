@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+<<<<<<< HEAD:Assets/XR/Settings/OpenXR Package Settings.asset.meta
+guid: d8eb78945f51d476d96d3886578cad71
+=======
+guid: d6898ced4e4514f55ab4909252c72153
+>>>>>>> parent of 6649046 (20 march):Assets/StarterAssets/Settings/Low_PipelineAsset.asset.meta
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -60,22 +60,6 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
-    "com.unity.inputsystem": {
-      "version": "1.5.0",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.modules.uielements": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.mathematics": {
-      "version": "1.2.6",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
     "com.unity.performance.profile-analyzer": {
       "version": "1.2.2",
       "depth": 1,
@@ -151,6 +135,7 @@
       },
       "url": "https://packages.unity.com"
     },
+<<<<<<< HEAD
     "com.unity.xr.core-utils": {
       "version": "2.2.0",
       "depth": 1,
@@ -221,6 +206,8 @@
       },
       "url": "https://packages.unity.com"
     },
+=======
+>>>>>>> parent of 6649046 (20 march)
     "com.unity.modules.ai": {
       "version": "1.0.0",
       "depth": 0,

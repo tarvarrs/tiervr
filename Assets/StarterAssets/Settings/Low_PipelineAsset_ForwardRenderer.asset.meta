@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+<<<<<<< HEAD:Assets/XR/XRGeneralSettingsPerBuildTarget.asset.meta
+<<<<<<< HEAD
+guid: 2479cf5c19fc14c798427cd72d93131d
+=======
+guid: 9e3577e08abbd43ca80edd672a0d6f9b
+>>>>>>> c11ce697d53fcdca6257d14725abbbfb110b0323
+=======
+guid: 44b37c8f6729f41cfac615998e7cc9f7
+>>>>>>> parent of 6649046 (20 march):Assets/StarterAssets/Settings/Low_PipelineAsset_ForwardRenderer.asset.meta
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
