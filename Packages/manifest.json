@@ -10,16 +10,16 @@
     "com.unity.timeline": "1.6.4",
     "com.unity.ugui": "1.0.0",
     "com.unity.visualscripting": "1.8.0",
-<<<<<<< HEAD
+
     "com.unity.xr.interaction.toolkit": "2.3.0",
     "com.unity.xr.management": "4.3.3",
-<<<<<<< HEAD
-=======
+
+
     "com.unity.xr.oculus": "3.2.3",
->>>>>>> c11ce697d53fcdca6257d14725abbbfb110b0323
+
     "com.unity.xr.openxr": "1.6.0",
-=======
->>>>>>> parent of 6649046 (20 march)
+
+
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
