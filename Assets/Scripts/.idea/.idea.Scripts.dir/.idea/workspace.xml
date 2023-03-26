@@ -1,7 +1,209 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c1a9af3-d68a-400a-96f9-7c9e0cfd8fe8" name="Changes" comment="" />
+    <list default="true" id="4c1a9af3-d68a-400a-96f9-7c9e0cfd8fe8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Scenes/mode1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Scenes/mode1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Materials/Blue_Mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Materials/Blue_Mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Materials/GreyBlue_Mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Materials/GreyBlue_Mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Materials/GridBlue_01_Mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Materials/GridBlue_01_Mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Materials/GridOrange_01_Mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Materials/GridOrange_01_Mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Materials/GridWhite_01_Mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Materials/GridWhite_01_Mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Models/Box_350x250x200_Mesh.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Models/Box_350x250x200_Mesh.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Models/Box_350x250x300_Mesh.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Models/Box_350x250x300_Mesh.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Models/Ground_Mesh.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Models/Ground_Mesh.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Models/Ramp_100x100x200_Mesh.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Models/Ramp_100x100x200_Mesh.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Models/Ramp_Mesh.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Models/Ramp_Mesh.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Models/Stairs_200x100x200_Mesh.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Models/Stairs_200x100x200_Mesh.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Models/Stairs_650_400_300_Mesh.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Models/Stairs_650_400_300_Mesh.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Models/Structure_Mesh.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Models/Structure_Mesh.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Models/Tunnel_Mesh.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Models/Tunnel_Mesh.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Models/Wall_Mesh.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Models/Wall_Mesh.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Skybox.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Skybox/SkyboxLite.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Skybox/SkyboxLite.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Skybox/SkyboxLiteWarm.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Skybox/SkyboxLiteWarm.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Textures/Grid_01_BaseMap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Textures/Grid_01_BaseMap.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Textures/Grid_01_Emissive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Textures/Grid_01_Emissive.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Textures/Grid_01_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Textures/Grid_01_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Textures/Grid_02_BaseMap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Art/Textures/Grid_02_BaseMap.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Prefabs/Box_100x100x100_Prefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Prefabs/Box_100x100x100_Prefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Prefabs/Box_350x250x200_Prefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Prefabs/Box_350x250x200_Prefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Prefabs/Box_350x250x300_Prefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Prefabs/Box_350x250x300_Prefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Prefabs/Environment_Prefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Prefabs/Environment_Prefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Prefabs/Ramp_Prefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Prefabs/Ramp_Prefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Prefabs/Stairs_200x100x200_Prefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Prefabs/Stairs_200x100x200_Prefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Prefabs/Stairs_650_400_300_Prefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Prefabs/Stairs_650_400_300_Prefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Prefabs/Structure_Prefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Prefabs/Structure_Prefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Prefabs/Tunnel_Prefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Prefabs/Tunnel_Prefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Prefabs/Wall_Prefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Environment/Prefabs/Wall_Prefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/FirstPersonController.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/FirstPersonController/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/FirstPersonController/Prefabs/MainCamera.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/FirstPersonController/Prefabs/MainCamera.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/FirstPersonController/Prefabs/NestedParent_Unpack.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/FirstPersonController/Prefabs/NestedParent_Unpack.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/FirstPersonController/Prefabs/PlayerCapsule.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/FirstPersonController/Prefabs/PlayerCapsule.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/FirstPersonController/Prefabs/PlayerFollowCamera.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/FirstPersonController/Prefabs/PlayerFollowCamera.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/FirstPersonController/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/FirstPersonController/Scenes/Playground.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/FirstPersonController/Scenes/Playground.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/FirstPersonController/Scenes/Playground.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/FirstPersonController/Scenes/Playground/LightingData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/FirstPersonController/Scenes/Playground/LightingData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/FirstPersonController/Scenes/Playground/ReflectionProbe-0.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/FirstPersonController/Scenes/Playground/ReflectionProbe-0.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/FirstPersonController/Scenes/Playground/ReflectionProbe-1.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/FirstPersonController/Scenes/Playground/ReflectionProbe-1.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/FirstPersonController/Scenes/Playground/ReflectionProbe-2.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/FirstPersonController/Scenes/Playground/ReflectionProbe-2.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/FirstPersonController/Scenes/PlaygroundSettings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/FirstPersonController/Scenes/PlaygroundSettings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/FirstPersonController/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/FirstPersonController/Scripts/BasicRigidBodyPush.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/FirstPersonController/Scripts/BasicRigidBodyPush.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/FirstPersonController/Scripts/FirstPersonController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/FirstPersonController/Scripts/FirstPersonController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/InputSystem.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/InputSystem/StarterAssets.inputactions" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/InputSystem/StarterAssets.inputactions.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/InputSystem/StarterAssets.inputsettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/InputSystem/StarterAssets.inputsettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/InputSystem/StarterAssetsInputs.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/InputSystem/StarterAssetsInputs.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Mobile.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Mobile/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Mobile/Prefabs/CanvasInputs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Mobile/Prefabs/CanvasInputs/UI_Canvas_StarterAssetsInputs_Joysticks.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Mobile/Prefabs/CanvasInputs/UI_Canvas_StarterAssetsInputs_Joysticks.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Mobile/Prefabs/CanvasInputs/UI_Canvas_StarterAssetsInputs_TouchZones.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Mobile/Prefabs/CanvasInputs/UI_Canvas_StarterAssetsInputs_TouchZones.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Mobile/Prefabs/EventSystem.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Mobile/Prefabs/EventSystem/UI_EventSystem.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Mobile/Prefabs/EventSystem/UI_EventSystem.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Mobile/Prefabs/VirtualInputs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Mobile/Prefabs/VirtualInputs/UI_Virtual_Button.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Mobile/Prefabs/VirtualInputs/UI_Virtual_Button.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Mobile/Prefabs/VirtualInputs/UI_Virtual_Joystick.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Mobile/Prefabs/VirtualInputs/UI_Virtual_Joystick.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Mobile/Prefabs/VirtualInputs/UI_Virtual_TouchZone.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Mobile/Prefabs/VirtualInputs/UI_Virtual_TouchZone.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Mobile/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Mobile/Scripts/CanvasInputs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Mobile/Scripts/CanvasInputs/UICanvasControllerInput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Mobile/Scripts/CanvasInputs/UICanvasControllerInput.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Mobile/Scripts/Utilities.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Mobile/Scripts/Utilities/MobileDisableAutoSwitchControls.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Mobile/Scripts/Utilities/MobileDisableAutoSwitchControls.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Mobile/Scripts/VirtualInputs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualButton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualButton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualJoystick.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualJoystick.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualTouchZone.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualTouchZone.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Mobile/UI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Mobile/UI/UI_Circle_Bevel_Base.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Mobile/UI/UI_Circle_Bevel_Base.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Mobile/UI/UI_Circle_Faded.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Mobile/UI/UI_Circle_Faded.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Mobile/UI/UI_Icon_Jump.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Mobile/UI/UI_Icon_Jump.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Mobile/UI/UI_Icon_Look.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Mobile/UI/UI_Icon_Look.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Mobile/UI/UI_Icon_Move.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Mobile/UI/UI_Icon_Move.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Mobile/UI/UI_Icon_Sprint.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Mobile/UI/UI_Icon_Sprint.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Readme.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Readme.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Settings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Settings/High_PipelineAsset.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Settings/High_PipelineAsset.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Settings/High_PipelineAsset_ForwardRenderer.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Settings/High_PipelineAsset_ForwardRenderer.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Settings/Low_PipelineAsset.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Settings/Low_PipelineAsset.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Settings/Low_PipelineAsset_ForwardRenderer.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Settings/Low_PipelineAsset_ForwardRenderer.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Settings/Medium_PipelineAsset.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Settings/Medium_PipelineAsset.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Settings/Medium_PipelineAsset_ForwardRenderer.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Settings/Medium_PipelineAsset_ForwardRenderer.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Settings/Ultra_PipelineAsset.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Settings/Ultra_PipelineAsset.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Settings/Ultra_PipelineAsset_ForwardRenderer.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Settings/Ultra_PipelineAsset_ForwardRenderer.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Settings/Very High_PipelineAsset.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Settings/Very High_PipelineAsset.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Settings/Very High_PipelineAsset_ForwardRenderer.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Settings/Very High_PipelineAsset_ForwardRenderer.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Settings/Very Low_PipelineAsset.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Settings/Very Low_PipelineAsset.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Settings/Very Low_PipelineAsset_ForwardRenderer.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/Settings/Very Low_PipelineAsset_ForwardRenderer.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/StarterAssets_Documentation_v1.1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/StarterAssets_Documentation_v1.1.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/TutorialInfo.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/TutorialInfo/Icons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/TutorialInfo/Icons/ReadMeImg.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/TutorialInfo/Icons/ReadMeImg.PNG.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/TutorialInfo/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/TutorialInfo/Scripts/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/TutorialInfo/Scripts/Readme.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/TutorialInfo/Scripts/Readme.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StarterAssets/license.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XR/Settings/OpenXR Package Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../XR/Settings/OpenXR Package Settings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XR/XRGeneralSettingsPerBuildTarget.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../XR/XRGeneralSettingsPerBuildTarget.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../XR/XRGeneralSettingsPerBuildTarget.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../XR/XRGeneralSettingsPerBuildTarget.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/../../UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/../../UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,9 +230,9 @@
   },
   &quot;keyToStringList&quot;: {
     &quot;rider.external.source.directories&quot;: [
-      &quot;/Users/valeriataranova/Library/Application Support/JetBrains/Rider2022.3/resharper-host/DecompilerCache&quot;,
-      &quot;/Users/valeriataranova/Library/Application Support/JetBrains/Rider2022.3/resharper-host/SourcesCache&quot;,
-      &quot;/Users/valeriataranova/.local/share/Symbols/src&quot;
+      &quot;/Users/waggerok/Library/Application Support/JetBrains/Rider2022.3/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/waggerok/Library/Application Support/JetBrains/Rider2022.3/resharper-host/SourcesCache&quot;,
+      &quot;/Users/waggerok/.local/share/Symbols/src&quot;
     ]
   }
 }</component>
@@ -46,6 +248,9 @@
       <workItem from="1679299652711" duration="33000" />
       <workItem from="1679299726381" duration="451000" />
       <workItem from="1679329858146" duration="776000" />
+      <workItem from="1679839050090" duration="722000" />
+      <workItem from="1679839784082" duration="476000" />
+      <workItem from="1679840295591" duration="559000" />
     </task>
     <servers />
   </component>
