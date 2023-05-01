@@ -58,3 +58,6 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+#ignore for mac temporary files
+*.DS_Store
+._*
