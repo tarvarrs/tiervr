@@ -17,9 +17,7 @@ public class FireBulletOnActivate : MonoBehaviour
         spawnedBullet.GetComponent<Rigidbody>().velocity = spawnPoint.forward * fireSpeed;
         Destroy(spawnedBullet, 5);
     }
-    void OnCollisionEnter(Collision collision) {
-        if (collision.gameObject.tag == "Target") {
-            Destroy(collision.gameObject);
-        }
-    }
+
+
+    
 }
