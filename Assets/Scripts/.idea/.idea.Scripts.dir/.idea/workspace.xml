@@ -2,19 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c1a9af3-d68a-400a-96f9-7c9e0cfd8fe8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Png for Menu/play 2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/../Png for Menu/play 2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Scenes/Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scenes/mode1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Scenes/mode1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BulletScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireBulletOnActivate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FireBulletOnActivate.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Menu.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Menu.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayerInput.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayerInput.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TargetMoveScript.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TargetMoveScript.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwoHandsGrabInteractable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TwoHandsGrabInteractable.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/../../UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/FireBulletOnActivate.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Menu.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PlayerInput.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -58,6 +67,7 @@
       <workItem from="1679846123762" duration="20000" />
       <workItem from="1683287956636" duration="116000" />
       <workItem from="1683288098542" duration="1532000" />
+      <workItem from="1683379007770" duration="2390000" />
     </task>
     <servers />
   </component>

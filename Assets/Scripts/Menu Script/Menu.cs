@@ -9,5 +9,14 @@ public class Menu : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
+
+    public void Shop()
+    {
+        SceneManager.LoadScene(4);
+    }
     
+    public void Exit()
+    {
+        Application.Quit();
+    }
 }
