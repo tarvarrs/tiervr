@@ -4,17 +4,13 @@ using UnityEngine;
 
 public class BulletScript : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public float force = 1000f;
+    public float destroyDelay = 2f;
+    /*
+    public float respawnDelay = 5f;
+    public GameObject targetPrefab;
+    public Transform spawnPoint;
+     */
     public void OnTriggerEnter(Collider collider)
     {
         if (collider.gameObject.tag == "Target")
@@ -22,21 +18,28 @@ public class BulletScript : MonoBehaviour
             Destroy(collider.gameObject);
         }
     }
-    
-    public float force = 1000f;
-    public float destroyDelay = 2f;
-    
-    public void OnCollisionEnter(Collision collision) {
+
+    void OnCollisionEnter(Collision collision) {
         if (collision.gameObject.tag == "MovingTarget") {
             Rigidbody targetRb = collision.gameObject.GetComponent<Rigidbody>();
             targetRb.AddForce(Vector3.forward * force);
-            StartCoroutine(DestroyTarget(collision.gameObject));
+            StartCoroutine(DestroyTarget(collision.gameObject)); //
+            /*
+            StartCoroutine(RespawnTarget());
+            collision.gameObject.SetActive(false);
+             */
         }
     }
 
     IEnumerator DestroyTarget(GameObject target) {
         yield return new WaitForSeconds(destroyDelay);
         Destroy(target);
+    } //
+    /*
+     IEnumerator RespawnTarget() {
+        yield return new WaitForSeconds(respawnDelay);
+        GameObject target = Instantiate(targetPrefab, spawnPoint.position, spawnPoint.rotation);
+        target.SetActive(true);
     }
-
+     */
 }

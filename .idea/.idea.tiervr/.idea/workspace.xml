@@ -3,19 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="17248dae-9528-42b6-8355-6746bdd7b0ad" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.tiervr/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.tiervr/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Mode_2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Mode_2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/mode3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/mode3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BulletScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BulletScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bullet Scripts/BulletScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bullet Scripts/BulletScript.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TargetMoveScript.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -92,6 +86,7 @@
       <workItem from="1679330661916" duration="36000" />
       <workItem from="1683004825959" duration="244000" />
       <workItem from="1683295081325" duration="2451000" />
+      <workItem from="1683473728306" duration="1214000" />
     </task>
     <servers />
   </component>
