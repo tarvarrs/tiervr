@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="17248dae-9528-42b6-8355-6746bdd7b0ad" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.tiervr/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.tiervr/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/mode1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/mode1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bullet Scripts/BulletScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bullet Scripts/BulletScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bullet Scripts/FireBulletOnActivate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bullet Scripts/FireBulletOnActivate.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,6 +89,7 @@
       <workItem from="1683004825959" duration="244000" />
       <workItem from="1683295081325" duration="2451000" />
       <workItem from="1683473728306" duration="1214000" />
+      <workItem from="1683813701099" duration="3834000" />
     </task>
     <servers />
   </component>

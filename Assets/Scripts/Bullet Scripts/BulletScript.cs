@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BulletScript : MonoBehaviour
 {
@@ -11,11 +13,14 @@ public class BulletScript : MonoBehaviour
     public GameObject targetPrefab;
     public Transform spawnPoint;
      */
+    public int score;
+    [SerializeField] public Text scoreText;
     public void OnTriggerEnter(Collider collider)
     {
         if (collider.gameObject.tag == "Target")
         {
             Destroy(collider.gameObject);
+            score++;
         }
     }
 
@@ -42,4 +47,8 @@ public class BulletScript : MonoBehaviour
         target.SetActive(true);
     }
      */
+    void Update()
+    {
+        scoreText.text = score.ToString();
+    }
 }

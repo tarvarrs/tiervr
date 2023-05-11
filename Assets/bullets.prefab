@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2303418142768230518}
   - component: {fileID: 8986270391318094900}
   - component: {fileID: -5513125754639923757}
-  - component: {fileID: -2271032008343005886}
+  - component: {fileID: 1427935473638135808}
   m_Layer: 0
   m_Name: bullets
   m_TagString: Untagged
@@ -80,7 +80,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &-2271032008343005886
+--- !u!114 &1427935473638135808
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -92,6 +92,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c4f45a4639943f4aace2bcb018b50ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  force: 1000
+  destroyDelay: 2
+  score: 0
+  scoreText: {fileID: 7654462540535546962, guid: b6c95bdd8697e4e9cb9c85a1ebc29179, type: 3}
 --- !u!1 &7942501407819617917
 GameObject:
   m_ObjectHideFlags: 0
