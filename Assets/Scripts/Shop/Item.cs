@@ -1,6 +1,8 @@
-using System.Collections;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class Item : MonoBehaviour
 {
@@ -9,12 +11,21 @@ public class Item : MonoBehaviour
     //Имя оружия
     public string nameItem;
     //Цена оружия
-    public string priceItem;
+    public int priceItem;
 
+    public TextMeshProUGUI TextItem;
+
+    public bool isBuy;
+    
     public void BuyItem()
     {
         //передаём переменную в Buying
-        ScriptBuying.nameItem = nameItem;
-        ScriptBuying.priceItem = priceItem;
+        if (isBuy == false)
+        {
+            ScriptBuying.nameItem = nameItem;
+            ScriptBuying.priceItem = priceItem;
+
+            ScriptBuying.BuyItem();
+        }
     }
 }

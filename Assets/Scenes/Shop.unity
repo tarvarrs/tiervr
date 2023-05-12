@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028305, g: 0.22571313, b: 0.3069213, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -176,9 +176,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e89d3577e77e4561a6b6d5d3a771687, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScriptBuying: {fileID: 0}
+  ScriptBuying: {fileID: 1857492928}
   nameItem: Ak-47
   priceItem: 200
+  TextItem: {fileID: 1331594380}
 --- !u!114 &27132899
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -222,7 +223,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 27132900}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 27132898}
+        m_TargetAssemblyTypeName: Item, Assembly-CSharp
+        m_MethodName: BuyItem
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &27132900
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -542,7 +555,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TrackingType: 0
   m_UpdateType: 0
-  m_IgnoreTrackingState: 0
   m_PositionInput:
     m_UseReference: 0
     m_Action:
@@ -597,18 +609,6 @@ MonoBehaviour:
         m_Groups: 
         m_Action: Rotation
         m_Flags: 0
-      m_Flags: 0
-    m_Reference: {fileID: 0}
-  m_TrackingStateInput:
-    m_UseReference: 0
-    m_Action:
-      m_Name: Tracking State Input
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: f18a8c1f-2f1e-448d-a71c-88dc8670519c
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: 0}
   m_PositionAction:
@@ -894,9 +894,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e89d3577e77e4561a6b6d5d3a771687, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScriptBuying: {fileID: 0}
+  ScriptBuying: {fileID: 1857492928}
   nameItem: Makarov
   priceItem: 50
+  TextItem: {fileID: 1588296116}
 --- !u!114 &516556932
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -940,7 +941,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 516556933}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 516556931}
+        m_TargetAssemblyTypeName: Item, Assembly-CSharp
+        m_MethodName: BuyItem
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &516556933
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1811,9 +1824,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e89d3577e77e4561a6b6d5d3a771687, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScriptBuying: {fileID: 0}
+  ScriptBuying: {fileID: 1857492928}
   nameItem: M4
   priceItem: 300
+  TextItem: {fileID: 1795501910}
 --- !u!114 &1245512345
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1857,7 +1871,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1245512346}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1245512344}
+        m_TargetAssemblyTypeName: Item, Assembly-CSharp
+        m_MethodName: BuyItem
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1245512346
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3060,7 +3086,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameItem: 
-  priceItem: 
+  priceItem: 0
+  allitem:
+  - {fileID: 27132896}
+  - {fileID: 1245512342}
+  - {fileID: 516556929}
 --- !u!1 &1894976440
 GameObject:
   m_ObjectHideFlags: 0
