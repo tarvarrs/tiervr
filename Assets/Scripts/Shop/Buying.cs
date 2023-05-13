@@ -29,7 +29,7 @@ public class Buying : MonoBehaviour
         }
         else
         {
-            dataPlayer.money = 500; //Изначальное количество очков монет
+            dataPlayer.money = 50; //Изначальное количество очков монет
             SaveGame();
             LoadGame();
         }        

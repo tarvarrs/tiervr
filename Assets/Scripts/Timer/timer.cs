@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class timer : MonoBehaviour
 {
@@ -12,7 +14,6 @@ public class timer : MonoBehaviour
     {
         timerText.text = timeStart.ToString();
     }
-
     
     void Update()
     {
@@ -21,7 +22,12 @@ public class timer : MonoBehaviour
 
         if (timeStart < 0)
         {
-            timeStart = 0;
+            PlayerPrefs.SetInt("Score",BulletScript.score);
+            timeEnd();
         }
+    }
+    public void timeEnd()
+    {
+        SceneManager.LoadScene(6);
     }
 }

@@ -4799,10 +4799,10 @@ MonoBehaviour:
   m_TrackingStateInput:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: Tracking State Input
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: 1e049fb8-6512-47e9-aaa1-fa820a6395a9
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
