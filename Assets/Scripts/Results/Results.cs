@@ -21,10 +21,7 @@ public class Results : MonoBehaviour
     private void Start()
     {
         score = PlayerPrefs.GetInt("Score");
-    }
-
-    private void Update()
-    {
         scoreText.text = score.ToString();
     }
+
 }

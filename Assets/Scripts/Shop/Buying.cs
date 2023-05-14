@@ -1,7 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
-
+using UnityEngine.UI;
 
 public class Buying : MonoBehaviour
 {
@@ -12,7 +13,8 @@ public class Buying : MonoBehaviour
     public int priceItem;
 
     public GameObject[] allitem;
-
+    public int earnedMoney;
+    public TextMeshProUGUI moneyText;
     public class DataPlayer
     {
         public int money; //Кол-во монет
@@ -32,7 +34,15 @@ public class Buying : MonoBehaviour
             dataPlayer.money = 50; //Изначальное количество очков монет
             SaveGame();
             LoadGame();
-        }        
+        }
+
+        dataPlayer.money = PlayerPrefs.GetInt("Money");
+        earnedMoney = PlayerPrefs.GetInt("Score");
+        dataPlayer.money += earnedMoney;
+        PlayerPrefs.SetInt("Money",dataPlayer.money);
+        moneyText.text = dataPlayer.money.ToString();
+        earnedMoney = 0;
+        PlayerPrefs.SetInt("Score",0);
     }
     
     //Сохранение

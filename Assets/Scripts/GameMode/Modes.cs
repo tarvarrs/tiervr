@@ -5,19 +5,23 @@ using UnityEngine.SceneManagement;
 
 public class Modes : MonoBehaviour
 {
+    public static int gamemode;
     public void FstMode()
     {
-        SceneManager.LoadScene(1);
+        gamemode = 1;
+        SceneManager.LoadScene(7);
     }
 
     public void SndMode()
     {
-        SceneManager.LoadScene(2);
+        gamemode = 2;
+        SceneManager.LoadScene(7);
     }
     
     public void TrdMode()
     {
-        SceneManager.LoadScene(3);
+        gamemode = 3;
+        SceneManager.LoadScene(7);
     }
 
     public void MenuExit()

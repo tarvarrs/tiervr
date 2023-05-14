@@ -64,4 +64,6 @@ public class BulletScript : MonoBehaviour
         _score = FindObjectOfType<Scorik1>();
     }
     
+    
+
 }
