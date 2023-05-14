@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class BulletScript : MonoBehaviour
 {
@@ -62,6 +63,7 @@ public class BulletScript : MonoBehaviour
     {
         _score = FindObjectOfType<Scorik1>();
     }
-
+    
+    
 
 }

@@ -3,9 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="17248dae-9528-42b6-8355-6746bdd7b0ad" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.tiervr/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.tiervr/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/mode1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/mode1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GLASSOFCOINS - FPS low poly fps/pistol1/pistol1_prefab/pistol1_prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GLASSOFCOINS - FPS low poly fps/pistol1/pistol1_prefab/pistol1_prefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameMode.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameMode.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GunChoose.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GunChoose.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Shop.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Shop.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bullet Scripts/BulletScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bullet Scripts/BulletScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bullet Scripts/FireBulletOnActivate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bullet Scripts/FireBulletOnActivate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameMode/Modes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameMode/Modes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Results/Results.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Results/Results.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Shop/Buying.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Shop/Buying.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,9 +20,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/valeriataranova/Desktop/tiervr/Assets/Scripts/Bullet Scripts/BulletScript.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GunChoose/GunChoose.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GunChoose/SelectedGun.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Results/Results.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Timer/timer2.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectId" id="2NGpGaZPhDlLzbu3uMSiMXWDj6w" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -89,13 +107,16 @@
       <workItem from="1683004825959" duration="244000" />
       <workItem from="1683295081325" duration="2451000" />
       <workItem from="1683473728306" duration="1214000" />
-      <workItem from="1683813701099" duration="3834000" />
+      <workItem from="1683813701099" duration="4697000" />
+      <workItem from="1683983020066" duration="7705000" />
+      <workItem from="1684061958455" duration="8999000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">

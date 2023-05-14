@@ -1,15 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
+using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.SocialPlatforms.Impl;
 
-public class timer : MonoBehaviour
+public class timer2 : MonoBehaviour
 {
-    public float timeStart = 60;
-    public Text timerText;
-    
+    public float timeStart = 5;
+    public TextMeshProUGUI timerText;
+    private int mode = Modes.gamemode;
     void Start()
     {
         timerText.text = timeStart.ToString();
@@ -22,12 +24,23 @@ public class timer : MonoBehaviour
 
         if (timeStart < 0)
         {
-            PlayerPrefs.SetInt("Score",BulletScript.score);
             timeEnd();
         }
     }
     public void timeEnd()
     {
-        SceneManager.LoadScene(6);
+        if (mode == 1)
+        {
+            SceneManager.LoadScene(1);
+        }
+        if (mode == 2)
+        {
+            SceneManager.LoadScene(2);
+        }
+        if (mode == 3)
+        {
+            SceneManager.LoadScene(3);
+        }
+        
     }
 }
