@@ -3,16 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="17248dae-9528-42b6-8355-6746bdd7b0ad" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.tiervr/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.tiervr/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GLASSOFCOINS - FPS low poly fps/Texture/FPS_AssetPack_Tex.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GLASSOFCOINS - FPS low poly fps/Texture/FPS_AssetPack_Tex.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GLASSOFCOINS - FPS low poly fps/ar1(automatic rifle)/ar2(automatic rifle)_prefab/ar1(automatic rifle)_prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GLASSOFCOINS - FPS low poly fps/ar1(automatic rifle)/ar2(automatic rifle)_prefab/ar1(automatic rifle)_prefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GLASSOFCOINS - FPS low poly fps/ar2(automatic rifle)/ar1(automatic rifle)_prefab/ar2(automatic rifle)_prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GLASSOFCOINS - FPS low poly fps/ar2(automatic rifle)/ar1(automatic rifle)_prefab/ar2(automatic rifle)_prefab.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GLASSOFCOINS - FPS low poly fps/pistol1/pistol1_prefab/pistol1_prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GLASSOFCOINS - FPS low poly fps/pistol1/pistol1_prefab/pistol1_prefab.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameMode.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameMode.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GLASSOFCOINS - FPS low poly fps/shotgun2/shotgun2_prefab/shotgun2_prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GLASSOFCOINS - FPS low poly fps/shotgun2/shotgun2_prefab/shotgun2_prefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GLASSOFCOINS - FPS low poly fps/sniper rifle 1/sniper rifle 1_prefab/sniper rifle 1_prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GLASSOFCOINS - FPS low poly fps/sniper rifle 1/sniper rifle 1_prefab/sniper rifle 1_prefab.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GunChoose.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GunChoose.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Shop.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Shop.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bullet Scripts/BulletScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bullet Scripts/BulletScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameMode/Modes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameMode/Modes.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Results/Results.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Results/Results.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Shop/Buying.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Shop/Buying.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/List Of Guns.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/List Of Guns.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +22,6 @@
     <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Users/valeriataranova/Desktop/tiervr/Assets/Scripts/Bullet Scripts/BulletScript.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GunChoose/GunChoose.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GunChoose/SelectedGun.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Results/Results.cs" root0="FORCE_HIGHLIGHTING" />
@@ -110,6 +107,7 @@
       <workItem from="1683813701099" duration="4697000" />
       <workItem from="1683983020066" duration="7705000" />
       <workItem from="1684061958455" duration="8999000" />
+      <workItem from="1684086130742" duration="1211000" />
     </task>
     <servers />
   </component>
