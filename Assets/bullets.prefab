@@ -93,9 +93,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   force: 1000
-  destroyDelay: 2
-  score: 0
-  scoreText: {fileID: 7654462540535546962, guid: b6c95bdd8697e4e9cb9c85a1ebc29179, type: 3}
+  targetPrefab1: {fileID: 1900388957618483931, guid: 41d3623e1adb39c40a70dc0f55e1273e, type: 3}
+  spawnPoint1: {fileID: 0}
+  targetPrefab2: {fileID: 3962174199590212882, guid: a5808505bb7cdf243a7b55ed863096dc, type: 3}
+  spawnPoint2: {fileID: 0}
+  targetPrefab3: {fileID: 4217662036913792143, guid: df9281eae830f1a48b271ea79002425d, type: 3}
+  spawnPoint3: {fileID: 0}
 --- !u!1 &7942501407819617917
 GameObject:
   m_ObjectHideFlags: 0

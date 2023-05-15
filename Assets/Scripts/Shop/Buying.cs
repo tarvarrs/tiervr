@@ -13,14 +13,13 @@ public class Buying : MonoBehaviour
     public int priceItem;
 
     public GameObject[] allitem;
-    public int earnedMoney;
+    //public int earnedMoney;
     public TextMeshProUGUI moneyText;
     public class DataPlayer
     {
-        public int money; //Кол-во монет
-        
-        public List<string> buyItem = new List<string>(); // 
-        
+        //public int money;
+        public List<string> buyItem = new List<string>();
+
     }
 
     private void Start()
@@ -31,25 +30,27 @@ public class Buying : MonoBehaviour
         }
         else
         {
-            dataPlayer.money = 50; //Изначальное количество очков монет
+            PlayerPrefs.SetInt("Money", 50); //Изначальное количество очков монет
             SaveGame();
             LoadGame();
-        }
 
-        dataPlayer.money = PlayerPrefs.GetInt("Money");
-        earnedMoney = PlayerPrefs.GetInt("Score");
-        dataPlayer.money += earnedMoney;
-        PlayerPrefs.SetInt("Money",dataPlayer.money);
-        moneyText.text = dataPlayer.money.ToString();
-        earnedMoney = 0;
-        PlayerPrefs.SetInt("Score",0);
+        }
+        //dataPlayer.money = 50;
+        //dataPlayer.money = PlayerPrefs.GetInt("Money");
+        //earnedMoney = PlayerPrefs.GetInt("earnedMoney");
+        //dataPlayer.money += earnedMoney;
+
+        PlayerPrefs.GetInt("Money");
+        //earnedMoney = 0;
+
+        //PlayerPrefs.SetInt("Money", dataPlayer.money);
+        moneyText.text = PlayerPrefs.GetInt("Money").ToString();
+        
     }
-    
+
     //Сохранение
     private void SaveGame()
     {
-        
-
         PlayerPrefs.SetString("SaveGame", JsonUtility.ToJson(dataPlayer));
     }
 
@@ -60,7 +61,7 @@ public class Buying : MonoBehaviour
 
         for (int i = 0; i < dataPlayer.buyItem.Count; i++)
         {
-            for(int j = 0; j < allitem.Length; j++)
+            for (int j = 0; j < allitem.Length; j++)
             {
                 if (allitem[j].GetComponent<Item>().nameItem == dataPlayer.buyItem[i])
                 {
@@ -69,19 +70,18 @@ public class Buying : MonoBehaviour
                 }
             }
         }
-    
     }
 
     public void BuyItem()
     {
-        if(dataPlayer.money >= priceItem)
+        if (PlayerPrefs.GetInt("Money") >= priceItem)
         {
             dataPlayer.buyItem.Add(nameItem);
-            dataPlayer.money = dataPlayer.money - priceItem;
-
+            //PlayerPrefs.GetInt("Money") = PlayerPrefs.GetInt("Money") - priceItem;
+            PlayerPrefs.SetInt("Money", (PlayerPrefs.GetInt("Money") - priceItem));
+            moneyText.text = PlayerPrefs.GetInt("Money").ToString();
             SaveGame();
             LoadGame();
         }
     }
-    
 }

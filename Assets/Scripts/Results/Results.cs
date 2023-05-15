@@ -7,21 +7,30 @@ using UnityEngine.UI;
 using TMPro;
 public class Results : MonoBehaviour
 {
-    public int score;
     public TextMeshProUGUI scoreText;
     public void playAgain()
     {
         SceneManager.LoadScene(7);
+
+        PlayerPrefs.SetInt("Money", BulletScript.score + PlayerPrefs.GetInt("Money"));
+        
+        BulletScript.score = 0;
+
     }
     public void toMenu()
     {
         SceneManager.LoadScene(0);
+
+        PlayerPrefs.SetInt("Money", BulletScript.score + PlayerPrefs.GetInt("Money"));
+        
+        BulletScript.score = 0;
+
     }
 
     private void Start()
     {
-        score = PlayerPrefs.GetInt("Score");
-        scoreText.text = score.ToString();
+        scoreText.text = BulletScript.score.ToString();
+        
     }
 
 }

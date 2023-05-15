@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class Item : MonoBehaviour
 {
@@ -26,6 +27,7 @@ public class Item : MonoBehaviour
             ScriptBuying.priceItem = priceItem;
 
             ScriptBuying.BuyItem();
+            
         }
     }
 }

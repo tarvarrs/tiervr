@@ -57,7 +57,7 @@ public class GunChoose : MonoBehaviour
 
             AllGuns[i].SetActive(false);
             i++;
-            AllGuns[i].SetActive(false);
+            AllGuns[i].SetActive(true);
 
             if (currentGun == i)
             {
