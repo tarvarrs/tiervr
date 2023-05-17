@@ -3,15 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="17248dae-9528-42b6-8355-6746bdd7b0ad" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.tiervr/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.tiervr/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GLASSOFCOINS - FPS low poly fps/Texture/FPS_AssetPack_Tex.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GLASSOFCOINS - FPS low poly fps/Texture/FPS_AssetPack_Tex.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GLASSOFCOINS - FPS low poly fps/ar1(automatic rifle)/ar2(automatic rifle)_prefab/ar1(automatic rifle)_prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GLASSOFCOINS - FPS low poly fps/ar1(automatic rifle)/ar2(automatic rifle)_prefab/ar1(automatic rifle)_prefab.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GLASSOFCOINS - FPS low poly fps/ar2(automatic rifle)/ar1(automatic rifle)_prefab/ar2(automatic rifle)_prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GLASSOFCOINS - FPS low poly fps/ar2(automatic rifle)/ar1(automatic rifle)_prefab/ar2(automatic rifle)_prefab.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GLASSOFCOINS - FPS low poly fps/pistol1/pistol1_prefab/pistol1_prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GLASSOFCOINS - FPS low poly fps/pistol1/pistol1_prefab/pistol1_prefab.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GLASSOFCOINS - FPS low poly fps/shotgun2/shotgun2_prefab/shotgun2_prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GLASSOFCOINS - FPS low poly fps/shotgun2/shotgun2_prefab/shotgun2_prefab.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GLASSOFCOINS - FPS low poly fps/sniper rifle 1/sniper rifle 1_prefab/sniper rifle 1_prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GLASSOFCOINS - FPS low poly fps/sniper rifle 1/sniper rifle 1_prefab/sniper rifle 1_prefab.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GunChoose.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GunChoose.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/List Of Guns.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/List Of Guns.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +47,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/2021.3.19f1/Unity.app/Contents/MacOS/Unity" />
+      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/MacOS/Unity" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath $PROJECT_DIR$ -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -62,7 +55,7 @@
       <method v="2" />
     </configuration>
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/2021.3.19f1/Unity.app/Contents/MacOS/Unity" />
+      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/2021.3.8f1/Unity.app/Contents/MacOS/Unity" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath $PROJECT_DIR$ -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -108,6 +101,7 @@
       <workItem from="1683983020066" duration="7705000" />
       <workItem from="1684061958455" duration="8999000" />
       <workItem from="1684086130742" duration="1211000" />
+      <workItem from="1684248633405" duration="13000" />
     </task>
     <servers />
   </component>
