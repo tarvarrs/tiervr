@@ -7,7 +7,7 @@ using UnityEngine.UIElements;
 using UnityEngine.SceneManagement;
 public class GunChoose : MonoBehaviour
 {
-    private int i;
+    private int i=0;
     private int currentGun;
     
     public GameObject[] AllGuns;

@@ -4791,7 +4791,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 797620244}
   - {fileID: 489015201}
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -6173,7 +6172,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 797620243}
   m_LocalRotation: {x: -0.2126311, y: 0.6743797, z: 0.6743797, w: 0.2126311}
-  m_LocalPosition: {x: 0.12089348, y: 0.5301024, z: -0.7165313}
+  m_LocalPosition: {x: 21.228, y: 0.74, z: -5.333}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6185,8 +6184,8 @@ Transform:
   - {fileID: 699286556}
   - {fileID: 320503529}
   - {fileID: 1656830390}
-  m_Father: {fileID: 620597544}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 270, y: 235, z: 270}
 --- !u!1 &813847730
 GameObject:
@@ -6429,6 +6428,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TrackingType: 0
   m_UpdateType: 0
+  m_IgnoreTrackingState: 0
   m_PositionInput:
     m_UseReference: 0
     m_Action:
@@ -6483,6 +6483,18 @@ MonoBehaviour:
         m_Groups: 
         m_Action: Rotation
         m_Flags: 0
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  m_TrackingStateInput:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Tracking State Input
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 9bd9167c-5470-4da4-93c0-66169bc3d07f
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: 0}
   m_PositionAction:
@@ -6582,13 +6594,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AllGuns:
-  - {fileID: 946722362}
-  - {fileID: 2025855736}
   - {fileID: 596970501}
-  - {fileID: 2021519793}
-  - {fileID: 320503530}
-  - {fileID: 699286557}
+  - {fileID: 946722362}
   - {fileID: 423117172}
+  - {fileID: 2025855736}
+  - {fileID: 2021519793}
+  - {fileID: 699286557}
+  - {fileID: 320503530}
   - {fileID: 1656830391}
 --- !u!1 &837364843
 GameObject:

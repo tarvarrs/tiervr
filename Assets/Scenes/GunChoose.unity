@@ -3010,10 +3010,10 @@ MonoBehaviour:
   m_TrackingStateInput:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: Tracking State Input
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: 85604fbb-4b73-4a8b-9521-862671a17c9e
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -5167,7 +5167,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1537818667}
   m_Layer: 0
-  m_Name: "\u041D\u0435\u0432\u0438\u0434\u0435\u043C\u044B\u0435 \u0441\u0442\u0435\u043D\u044B"
+  m_Name: "\u041D\u0435\u0432\u0438\u0434\u0438\u043C\u044B\u0435 \u0441\u0442\u0435\u043D\u044B"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5949,7 +5949,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1682846961}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: GunsList
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

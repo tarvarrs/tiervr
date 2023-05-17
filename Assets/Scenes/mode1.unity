@@ -922,7 +922,6 @@ Transform:
   - {fileID: 1380623026}
   - {fileID: 901449893}
   - {fileID: 210826695}
-  - {fileID: 2030672179}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6506,7 +6505,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!95 &1790517735
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 528285576080429039, guid: c8e750ee0e241fc46ac95a211e943705, type: 3}
   m_PrefabInstance: {fileID: 528285576722755080}
@@ -6523,7 +6522,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1794937231
 GameObject:
   m_ObjectHideFlags: 0
@@ -6574,6 +6573,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TrackingType: 0
   m_UpdateType: 0
+  m_IgnoreTrackingState: 0
   m_PositionInput:
     m_UseReference: 0
     m_Action:
@@ -6628,6 +6628,18 @@ MonoBehaviour:
         m_Groups: 
         m_Action: Rotation
         m_Flags: 0
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  m_TrackingStateInput:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Tracking State Input
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 2d74464a-720e-401f-a42b-96921b4ddfde
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: 0}
   m_PositionAction:
@@ -6727,13 +6739,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AllGuns:
-  - {fileID: 1400301026}
-  - {fileID: 1356924626}
   - {fileID: 484154646}
-  - {fileID: 1686756257}
-  - {fileID: 1950283091}
-  - {fileID: 2001172003}
+  - {fileID: 1400301026}
   - {fileID: 288174332}
+  - {fileID: 1356924626}
+  - {fileID: 1686756257}
+  - {fileID: 2001172003}
+  - {fileID: 1950283091}
   - {fileID: 2132666208}
 --- !u!1001 &1866406889
 PrefabInstance:
@@ -8719,8 +8731,8 @@ Transform:
   - {fileID: 2001172002}
   - {fileID: 1950283090}
   - {fileID: 2132666207}
-  m_Father: {fileID: 347010447}
-  m_RootOrder: 6
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 270, y: 235, z: 270}
 --- !u!1001 &2051511158
 PrefabInstance:

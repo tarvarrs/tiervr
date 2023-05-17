@@ -6102,6 +6102,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TrackingType: 0
   m_UpdateType: 0
+  m_IgnoreTrackingState: 0
   m_PositionInput:
     m_UseReference: 0
     m_Action:
@@ -6156,6 +6157,18 @@ MonoBehaviour:
         m_Groups: 
         m_Action: Rotation
         m_Flags: 0
+      m_Flags: 0
+    m_Reference: {fileID: 0}
+  m_TrackingStateInput:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Tracking State Input
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 0edabe47-b676-41bc-8241-771fc0b96c53
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: 0}
   m_PositionAction:
@@ -6255,13 +6268,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AllGuns:
-  - {fileID: 110785405}
-  - {fileID: 670158367}
   - {fileID: 1864182564}
-  - {fileID: 191841167}
-  - {fileID: 739355501}
-  - {fileID: 1858395138}
+  - {fileID: 110785405}
   - {fileID: 1009452975}
+  - {fileID: 670158367}
+  - {fileID: 191841167}
+  - {fileID: 1858395138}
+  - {fileID: 739355501}
   - {fileID: 1518314690}
 --- !u!1001 &1577434991
 PrefabInstance:
@@ -8880,7 +8893,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1998072591}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: GunsList
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
