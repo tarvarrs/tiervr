@@ -23,30 +23,32 @@ public class BulletScript : MonoBehaviour
     public static int score;
     public void OnTriggerEnter(Collider collider)
     {
-        if (collider.gameObject.tag == "Target")
+        switch (collider.gameObject.tag)
         {
-            Destroy(collider.gameObject);
-            spawnPoint1 = gameObject.GetComponent<Transform>();
-            score++;
-            _score.Print(score.ToString());
-            StartCoroutine(Spawn1());
-        }
-
-        if (collider.gameObject.tag == "MovingTarget")
-        {
-            Destroy(collider.gameObject);
-            spawnPoint2 = gameObject.GetComponent<Transform>();
-            score++;
-            _score.Print(score.ToString());
-            StartCoroutine(Spawn2());
-        }
-        if (collider.gameObject.tag == "Target3")
-        {
-            Destroy(collider.gameObject);
-            spawnPoint3 = gameObject.GetComponent<Transform>();
-            score++;
-            _score.Print(score.ToString());
-            StartCoroutine(Spawn3());
+            case "Target":
+                Destroy(collider.gameObject);
+                spawnPoint1 = gameObject.GetComponent<Transform>();
+                targetPrefab1 = gameObject;
+                score++;
+                _score.Print(score.ToString());
+                StartCoroutine(Spawn1());
+                break;
+            case "MovingTarget":
+                Destroy(collider.gameObject);
+                spawnPoint2 = gameObject.GetComponent<Transform>();
+                targetPrefab2 = gameObject;
+                score++;
+                _score.Print(score.ToString());
+                StartCoroutine(Spawn2());
+                break;
+            case "Target3":
+                Destroy(collider.gameObject);
+                spawnPoint3 = gameObject.GetComponent<Transform>();
+                targetPrefab3 = gameObject;
+                score++;
+                _score.Print(score.ToString());
+                StartCoroutine(Spawn3());
+                break;
         }
     }
 
@@ -59,20 +61,17 @@ public class BulletScript : MonoBehaviour
     {
         yield return new WaitForSeconds(5);
         Instantiate(targetPrefab1, spawnPoint1.position, Quaternion.identity);
-        
     }
 
     IEnumerator Spawn2()
     {
         yield return new WaitForSeconds(5);
         Instantiate(targetPrefab2, spawnPoint2.position, Quaternion.identity);
-
     }
 
     IEnumerator Spawn3()
     {
         yield return new WaitForSeconds(5);
         Instantiate(targetPrefab3, spawnPoint3.position, Quaternion.identity);
-
     }
 }

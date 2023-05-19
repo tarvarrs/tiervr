@@ -20,17 +20,17 @@ public class GunChoose : MonoBehaviour
 
     private void Start()
     {
-        if (PlayerPrefs.HasKey("CurrentGun"))
+        if (PlayerPrefs.HasKey("CurrentGun")) //
         {
             i = PlayerPrefs.GetInt("CurrentGun");
             currentGun=PlayerPrefs.GetInt("CurrentGun");
         }
-        else
+        else //
         {
             PlayerPrefs.SetInt("CurrentGun",i);
         }
         
-        AllGuns[i].SetActive(true);
+        AllGuns[i].SetActive(true); //
 
         ButtonSelectGun.SetActive(false);
         TextSelectGun.SetActive(true);
@@ -55,9 +55,9 @@ public class GunChoose : MonoBehaviour
                 ArrowToLeft.SetActive(true);
             }
 
-            AllGuns[i].SetActive(false);
+            AllGuns[i].SetActive(false); 
             i++;
-            AllGuns[i].SetActive(true);
+            AllGuns[i].SetActive(true); 
 
             if (currentGun == i)
             {
