@@ -19,7 +19,7 @@ public class Spawner1 : MonoBehaviour
     
     public IEnumerator Spawn1()
     {
-        yield return new WaitForSeconds(10);
+        yield return new WaitForSeconds(25);
         Instantiate(SpawnPrefab, SpawnPos.position, Quaternion.identity);
         repeat();
     }

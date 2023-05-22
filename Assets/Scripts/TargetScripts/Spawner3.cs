@@ -4,15 +4,23 @@ using UnityEngine;
 
 public class Spawner3 : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public Transform SpawnPos;
+    public GameObject SpawnPrefab;
+
+    private void Start()
     {
-        
+        StartCoroutine(Spawn3());
     }
 
-    // Update is called once per frame
-    void Update()
+    void repeat()
     {
-        
+        StartCoroutine(Spawn3());
+    }
+
+    public IEnumerator Spawn3()
+    {
+        yield return new WaitForSeconds(15);
+        Instantiate(SpawnPrefab, SpawnPos.position, Quaternion.identity);
+        repeat();
     }
 }

@@ -18,22 +18,27 @@ public class GunChoose : MonoBehaviour
     public GameObject ButtonSelectGun;
     public GameObject TextSelectGun;
 
+    public GameObject ButtonIsBuyGun;
+    public GameObject TextIsBuyGun;
+
     private void Start()
     {
-        if (PlayerPrefs.HasKey("CurrentGun")) //
+        if (PlayerPrefs.HasKey("CurrentGun"))
         {
             i = PlayerPrefs.GetInt("CurrentGun");
             currentGun=PlayerPrefs.GetInt("CurrentGun");
         }
-        else //
+        else 
         {
             PlayerPrefs.SetInt("CurrentGun",i);
         }
         
-        AllGuns[i].SetActive(true); //
-
-        ButtonSelectGun.SetActive(false);
-        TextSelectGun.SetActive(true);
+        AllGuns[i].SetActive(true);
+        /*
+        if (AllGuns[i].gameObject.name ){
+            ButtonSelectGun.SetActive(false);
+            TextSelectGun.SetActive(true);
+        }*/
 
         if (i > 0)
         {
