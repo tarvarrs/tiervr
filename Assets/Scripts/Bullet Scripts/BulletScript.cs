@@ -6,6 +6,7 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SocialPlatforms.Impl;
 
+
 public class BulletScript : MonoBehaviour
 {
     public float force = 1000f;
@@ -19,36 +20,26 @@ public class BulletScript : MonoBehaviour
 
     public GameObject targetPrefab3;
     public Transform spawnPoint3;
-
+    [SerializeField] private Spawner1 sp1;
+    [SerializeField] private Spawner2 sp2;
     public static int score;
     public void OnTriggerEnter(Collider collider)
     {
-        switch (collider.gameObject.tag)
+        
+        if (collider.gameObject.tag=="Target")
         {
-            case "Target":
-                Destroy(collider.gameObject);
-                spawnPoint1 = gameObject.GetComponent<Transform>();
-                targetPrefab1 = gameObject;
-                score++;
-                _score.Print(score.ToString());
-                StartCoroutine(Spawn1());
-                break;
-            case "MovingTarget":
-                Destroy(collider.gameObject);
-                spawnPoint2 = gameObject.GetComponent<Transform>();
-                targetPrefab2 = gameObject;
-                score++;
-                _score.Print(score.ToString());
-                StartCoroutine(Spawn2());
-                break;
-            case "Target3":
-                Destroy(collider.gameObject);
-                spawnPoint3 = gameObject.GetComponent<Transform>();
-                targetPrefab3 = gameObject;
-                score++;
-                _score.Print(score.ToString());
-                StartCoroutine(Spawn3());
-                break;
+            Destroy(collider.gameObject);
+            score++;
+            _score.Print(score.ToString());
+            StartCoroutine(sp1.Spawn1());
+        }
+
+        if (collider.gameObject.tag == "MovingTarget")
+        {
+            Destroy(collider.gameObject);
+            score++;
+            _score.Print(score.ToString());
+            StartCoroutine(sp2.Spawn2());
         }
     }
 
@@ -56,7 +47,7 @@ public class BulletScript : MonoBehaviour
     {
         _score = FindObjectOfType<Scorik1>();
     }
-
+    /*
     IEnumerator Spawn1()
     {
         yield return new WaitForSeconds(5);
@@ -73,5 +64,5 @@ public class BulletScript : MonoBehaviour
     {
         yield return new WaitForSeconds(5);
         Instantiate(targetPrefab3, spawnPoint3.position, Quaternion.identity);
-    }
+    }*/
 }
