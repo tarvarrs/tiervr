@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="17248dae-9528-42b6-8355-6746bdd7b0ad" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.tiervr/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.tiervr/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GunChoose.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GunChoose.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Mode_2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Mode_2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/mode1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/mode1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bullet Scripts/BulletScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bullet Scripts/BulletScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GunChoose/GunChoose.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GunChoose/GunChoose.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameMode/Modes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameMode/Modes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Timer/timer2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Timer/timer2.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
