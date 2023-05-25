@@ -1,12 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
-
-
 public class PlayerInput : MonoBehaviour
 {
-
     private const string GRIP = "Grip";
     private const string TRIGGER = "Trigger";
     [SerializeField] private Animator _animator;
@@ -21,8 +16,5 @@ public class PlayerInput : MonoBehaviour
 
         _animator.SetFloat(GRIP,  gripValue);
         _animator.SetFloat(TRIGGER, actionValue);
-
-
-
     }
 }

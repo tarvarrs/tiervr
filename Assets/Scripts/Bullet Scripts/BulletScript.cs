@@ -1,12 +1,4 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-using TMPro;
-using UnityEngine.SocialPlatforms.Impl;
-
-
 public class BulletScript : MonoBehaviour
 {
     public float force = 1000f;
@@ -25,7 +17,6 @@ public class BulletScript : MonoBehaviour
     public static int score;
     public void OnTriggerEnter(Collider collider)
     {
-        
         if (collider.gameObject.tag=="Target")
         {
             Destroy(collider.gameObject);

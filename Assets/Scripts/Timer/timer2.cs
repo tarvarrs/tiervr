@@ -1,7 +1,6 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
 public class timer2 : MonoBehaviour
 {
     public float timeStart = 5;
@@ -11,12 +10,11 @@ public class timer2 : MonoBehaviour
     {
         timerText.text = timeStart.ToString();
     }
-    
     void Update()
     {
         timeStart -= Time.deltaTime;
         timerText.text = Mathf.Round(timeStart).ToString();
-
+        
         if (timeStart < 0)
         {
             timeEnd();
@@ -36,6 +34,5 @@ public class timer2 : MonoBehaviour
         {
             SceneManager.LoadScene(3);
         }
-        
     }
 }

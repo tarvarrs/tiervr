@@ -7,18 +7,11 @@ public class FireBulletOnActivate : MonoBehaviour
     public float fireSpeed = 20;
     public AudioClip fireClip;
     public AudioSource audioSource;
-    
-    
     void Start()
     {
         XRGrabInteractable grabbable = GetComponent<XRGrabInteractable>();
         grabbable.activated.AddListener(FireBullet);
-        
     }
-
-   
-    
-    
     public void FireBullet(ActivateEventArgs arg)
     {
         audioSource.PlayOneShot(fireClip);
@@ -26,9 +19,5 @@ public class FireBulletOnActivate : MonoBehaviour
         spawnedBullet.transform.position = spawnPoint.position;
         spawnedBullet.GetComponent<Rigidbody>().velocity = spawnPoint.forward * fireSpeed;
         Destroy(spawnedBullet, 5);
-        
     }
-
-
-    
 }

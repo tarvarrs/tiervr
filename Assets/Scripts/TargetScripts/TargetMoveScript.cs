@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-
 public class TargetMoveScript : MonoBehaviour
 {
     public GameObject[] waypoints;
@@ -19,7 +16,6 @@ public class TargetMoveScript : MonoBehaviour
                 currentTarget = 0;
             }
         }
-
         transform.position = Vector3.MoveTowards(transform.position, waypoints[currentTarget].transform.position,
             speed * Time.deltaTime);
     }
