@@ -13,7 +13,7 @@ public class timer : MonoBehaviour
     void Start()
     {
         timerText.text = timeStart.ToString();
-    }
+    }ы
     
     void Update()
     {

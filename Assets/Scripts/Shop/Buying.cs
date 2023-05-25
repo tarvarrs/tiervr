@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class Buying : MonoBehaviour
 {
-    private Buying.DataPlayer dataPlayer = new Buying.DataPlayer();
+    public Buying.DataPlayer dataPlayer = new Buying.DataPlayer();
     [HideInInspector]
     public string nameItem;
     [HideInInspector]
@@ -26,6 +26,7 @@ public class Buying : MonoBehaviour
     {
         if (PlayerPrefs.HasKey("SaveGame"))
         {
+            PlayerPrefs.SetInt("Money", 50); 
             LoadGame();
         }
         else

@@ -18,22 +18,27 @@ public class GunChoose : MonoBehaviour
     public GameObject ButtonSelectGun;
     public GameObject TextSelectGun;
 
-    public GameObject ButtonIsBuyGun;
     public GameObject TextIsBuyGun;
+
+    public Buying _buying;
+    private List<string> _buyItem;
 
     private void Start()
     {
-        if (PlayerPrefs.HasKey("CurrentGun"))
-        {
-            i = PlayerPrefs.GetInt("CurrentGun");
-            currentGun=PlayerPrefs.GetInt("CurrentGun");
-        }
-        else 
-        {
-            PlayerPrefs.SetInt("CurrentGun",i);
-        }
+        _buying = FindObjectOfType<Buying>();
+        _buyItem = _buying.dataPlayer.buyItem;
         
+        //!!!!!!!!!!!!!!!!!!!!!
+        //PlayerPrefs.SetInt("CurrentGun",i);
         AllGuns[i].SetActive(true);
+        TextSelectGun.SetActive(false);
+
+        if (_buyItem.Contains(AllGuns[i].name))
+        {
+            ButtonSelectGun.SetActive(false);
+            TextSelectGun.SetActive(true);
+        }
+
         /*
         if (AllGuns[i].gameObject.name ){
             ButtonSelectGun.SetActive(false);
@@ -64,7 +69,7 @@ public class GunChoose : MonoBehaviour
             i++;
             AllGuns[i].SetActive(true); 
 
-            if (currentGun == i)
+            if (currentGun == i && _buyItem.Contains(AllGuns[i].name))
             {
                 ButtonSelectGun.SetActive(false);
                 TextSelectGun.SetActive(true);
@@ -108,17 +113,19 @@ public class GunChoose : MonoBehaviour
             {
                 ArrowToLeft.SetActive(false);
             }
-
-            
         }
     }
 
     public void SelectGun()
     {
-        PlayerPrefs.SetInt("CurrentGun",i);
-        currentGun = i;
-        ButtonSelectGun.SetActive(false);
-        TextSelectGun.SetActive(true);
+        if (_buyItem.Contains(AllGuns[i].name))
+        {
+            Debug.Log("ЕСТЬ НАХУЙ ВСЕ РАБОТАЕТ");
+            PlayerPrefs.SetInt("CurrentGun",i);
+            currentGun = i;
+            ButtonSelectGun.SetActive(false);
+            TextSelectGun.SetActive(true);
+        }
     }
     public void StartGame()
     {
