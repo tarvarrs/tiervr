@@ -259,13 +259,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 079a61d4673aa45018bb6acf8e8d5b6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Unavailable: {fileID: 2047430890}
-  Chosen: {fileID: 1331594380}
-  indexItem: 5
-  nameChooseItem: Ak-47
-  currentGun: 0
-  _buying: {fileID: 0}
-  _buyItem: []
 --- !u!1 &34396688
 GameObject:
   m_ObjectHideFlags: 0
@@ -1354,13 +1347,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 079a61d4673aa45018bb6acf8e8d5b6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Unavailable: {fileID: 1406276680}
-  Chosen: {fileID: 372012123}
-  indexItem: 4
-  nameChooseItem: Origin-12
-  currentGun: 0
-  _buying: {fileID: 0}
-  _buyItem: []
 --- !u!1 &516556929
 GameObject:
   m_ObjectHideFlags: 0
@@ -1445,7 +1431,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 516556933}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1857492927}
+        m_TargetAssemblyTypeName: GunChoose, Assembly-CSharp
+        m_MethodName: SelectGun
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8708222119492909917, guid: 7b5c19c35a750334a8773615afd977e7, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &516556933
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2073,13 +2071,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 079a61d4673aa45018bb6acf8e8d5b6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Unavailable: {fileID: 1605810836}
-  Chosen: {fileID: 1645302138}
-  indexItem: 3
-  nameChooseItem: Shotgun
-  currentGun: 0
-  _buying: {fileID: 0}
-  _buyItem: []
 --- !u!1 &711306550
 GameObject:
   m_ObjectHideFlags: 0
@@ -3012,13 +3003,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 079a61d4673aa45018bb6acf8e8d5b6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Unavailable: {fileID: 1922026740}
-  Chosen: {fileID: 146869532}
-  indexItem: 7
-  nameChooseItem: SniperRifle
-  currentGun: 0
-  _buying: {fileID: 0}
-  _buyItem: []
 --- !u!1001 &1136657299
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3415,13 +3399,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 079a61d4673aa45018bb6acf8e8d5b6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Unavailable: {fileID: 638934659}
-  Chosen: {fileID: 1795501910}
-  indexItem: 6
-  nameChooseItem: M4
-  currentGun: 0
-  _buying: {fileID: 0}
-  _buyItem: []
 --- !u!1 &1331594378
 GameObject:
   m_ObjectHideFlags: 0
@@ -3945,7 +3922,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1574821209}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1857492927}
+        m_TargetAssemblyTypeName: GunChoose, Assembly-CSharp
+        m_MethodName: SelectGun
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 4203818946368185994, guid: 3342ae3ef4540974cb81ce4e6da2c2e4, type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1574821209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3996,13 +3985,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 079a61d4673aa45018bb6acf8e8d5b6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Unavailable: {fileID: 1675985458}
-  Chosen: {fileID: 873201047}
-  indexItem: 1
-  nameChooseItem: Tec-9
-  currentGun: 0
-  _buying: {fileID: 0}
-  _buyItem: []
 --- !u!1 &1588296114
 GameObject:
   m_ObjectHideFlags: 0
@@ -4409,13 +4391,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 079a61d4673aa45018bb6acf8e8d5b6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Unavailable: {fileID: 1406863029}
-  Chosen: {fileID: 2110591499}
-  indexItem: 2
-  nameChooseItem: SMG
-  currentGun: 0
-  _buying: {fileID: 0}
-  _buyItem: []
 --- !u!1 &1645302136
 GameObject:
   m_ObjectHideFlags: 0
@@ -5410,6 +5385,7 @@ GameObject:
   - component: {fileID: 1857492924}
   - component: {fileID: 1857492926}
   - component: {fileID: 1857492925}
+  - component: {fileID: 1857492927}
   m_Layer: 5
   m_Name: Background
   m_TagString: Untagged
@@ -5475,6 +5451,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1857492923}
   m_CullTransparentMesh: 1
+--- !u!114 &1857492927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1857492923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f575ccc15e804fb488d0610d7c5e730, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1894976440
 GameObject:
   m_ObjectHideFlags: 0

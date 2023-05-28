@@ -3,13 +3,13 @@ using TMPro;
 using UnityEngine;
 public class Buying : MonoBehaviour
 {
-    public Buying.DataPlayer dataPlayer = new Buying.DataPlayer();
+    public static Buying.DataPlayer dataPlayer = new Buying.DataPlayer();
     [HideInInspector]
     public string nameItem;
     [HideInInspector]
     public int priceItem;
 
-    public GameObject[] allitem;
+    public static GameObject[] allitem;
     public TextMeshProUGUI moneyText;
     public class DataPlayer
     {
