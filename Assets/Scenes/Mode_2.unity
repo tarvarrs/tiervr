@@ -760,7 +760,7 @@ GameObject:
   - component: {fileID: 208121731}
   m_Layer: 0
   m_Name: Target5
-  m_TagString: Untagged
+  m_TagString: MovingTarget
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -957,7 +957,7 @@ GameObject:
   - component: {fileID: 259523124}
   m_Layer: 0
   m_Name: Target9
-  m_TagString: Untagged
+  m_TagString: MovingTarget
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -6452,7 +6452,7 @@ GameObject:
   - component: {fileID: 823400527}
   m_Layer: 0
   m_Name: Target3
-  m_TagString: Untagged
+  m_TagString: MovingTarget
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -6525,7 +6525,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TrackingType: 0
   m_UpdateType: 0
-  m_IgnoreTrackingState: 0
   m_PositionInput:
     m_UseReference: 0
     m_Action:
@@ -6580,18 +6579,6 @@ MonoBehaviour:
         m_Groups: 
         m_Action: Rotation
         m_Flags: 0
-      m_Flags: 0
-    m_Reference: {fileID: 0}
-  m_TrackingStateInput:
-    m_UseReference: 0
-    m_Action:
-      m_Name: 
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: 
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: 0}
   m_PositionAction:
@@ -7646,7 +7633,7 @@ GameObject:
   - component: {fileID: 966273008}
   m_Layer: 0
   m_Name: Target8
-  m_TagString: Untagged
+  m_TagString: MovingTarget
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -8598,7 +8585,7 @@ GameObject:
   - component: {fileID: 1136743508}
   m_Layer: 0
   m_Name: Target6
-  m_TagString: Untagged
+  m_TagString: MovingTarget
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -10997,7 +10984,7 @@ GameObject:
   - component: {fileID: 1604540751}
   m_Layer: 0
   m_Name: Target7
-  m_TagString: Untagged
+  m_TagString: MovingTarget
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -11817,7 +11804,7 @@ GameObject:
   - component: {fileID: 1811865602}
   m_Layer: 0
   m_Name: Target10
-  m_TagString: Untagged
+  m_TagString: MovingTarget
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -12341,7 +12328,7 @@ GameObject:
   - component: {fileID: 1958233791}
   m_Layer: 0
   m_Name: Target4
-  m_TagString: Untagged
+  m_TagString: MovingTarget
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -14359,7 +14346,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3962174199590212882, guid: a5808505bb7cdf243a7b55ed863096dc, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: MovingTarget
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a5808505bb7cdf243a7b55ed863096dc, type: 3}

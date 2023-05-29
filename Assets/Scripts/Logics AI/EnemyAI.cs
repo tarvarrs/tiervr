@@ -19,6 +19,11 @@ public class EnemyAI : MonoBehaviour
 
     [SerializeField] private AIDestinationSetter _aiDestinationSetter;
 
+
+    [SerializeField] private EnemyAnimator _EnemyAnimator;
+
+    [SerializeField] private AIPath _aiPath;
+
     private Player _player;
 
     private EnemyStates _currentState;
@@ -50,15 +55,33 @@ public class EnemyAI : MonoBehaviour
 
                 TryFindPlayer();
 
+                _EnemyAnimator.IsWalking(true);
+                _EnemyAnimator.IsRunning(false);
+
+                _aiPath.maxSpeed = 3;
+
                 break;
             
             case  EnemyStates.Following:
                 _aiDestinationSetter.target = _player.transform;
 
+                _EnemyAnimator.IsWalking(false);
+                _EnemyAnimator.IsRunning(true);
+
+                _aiPath.maxSpeed = 6;
+
                 if (Vector3.Distance(gameObject.transform.position, _player.transform.position) <
                     _enemyAttack.AttackRange)
                 {
-                    _enemyAttack.TryAttackPlayer();
+                    _EnemyAnimator.IsWalking(false);
+                    _EnemyAnimator.IsRunning(false);
+
+                    if (_enemyAttack.CanAttack)
+                    {
+                        _enemyAttack.TryAttackPlayer();
+
+                        _EnemyAnimator.PlayAttack();
+                    }
                 }
 
                 if (Vector3.Distance(gameObject.transform.position, _player.transform.position) >=

@@ -17,6 +17,12 @@ public class BulletScript : MonoBehaviour
             score++;
             _score.Print(score.ToString());
         }
+        if (collider.gameObject.tag == "Target3")
+        {
+            Destroy(collider.gameObject);
+            score++;
+            _score.Print(score.ToString());
+        }
     }
     private void Start()
     {
