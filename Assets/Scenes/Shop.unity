@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028305, g: 0.22571313, b: 0.3069213, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -157,7 +157,7 @@ RectTransform:
   m_Children:
   - {fileID: 1331594379}
   m_Father: {fileID: 457359145}
-  m_RootOrder: 3
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -181,6 +181,7 @@ MonoBehaviour:
   priceItem: 200
   TextItem: {fileID: 1331594380}
   isBuy: 0
+  index: 5
 --- !u!114 &27132899
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -790,7 +791,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TrackingType: 0
   m_UpdateType: 0
-  m_IgnoreTrackingState: 0
   m_PositionInput:
     m_UseReference: 0
     m_Action:
@@ -845,18 +845,6 @@ MonoBehaviour:
         m_Groups: 
         m_Action: Rotation
         m_Flags: 0
-      m_Flags: 0
-    m_Reference: {fileID: 0}
-  m_TrackingStateInput:
-    m_UseReference: 0
-    m_Action:
-      m_Name: 
-      m_Type: 0
-      m_ExpectedControlType: 
-      m_Id: 
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: 0}
   m_PositionAction:
@@ -1215,14 +1203,14 @@ RectTransform:
   - {fileID: 1857492924}
   - {fileID: 207583237}
   - {fileID: 1041208175}
-  - {fileID: 27132897}
-  - {fileID: 1245512343}
   - {fileID: 516556930}
-  - {fileID: 505616086}
   - {fileID: 1574821206}
-  - {fileID: 1134206873}
   - {fileID: 1613961974}
   - {fileID: 692870026}
+  - {fileID: 505616086}
+  - {fileID: 27132897}
+  - {fileID: 1245512343}
+  - {fileID: 1134206873}
   - {fileID: 966765198}
   - {fileID: 960860288}
   m_Father: {fileID: 0}
@@ -1267,7 +1255,7 @@ RectTransform:
   m_Children:
   - {fileID: 372012122}
   m_Father: {fileID: 457359145}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1291,6 +1279,7 @@ MonoBehaviour:
   priceItem: 600
   TextItem: {fileID: 372012123}
   isBuy: 0
+  index: 4
 --- !u!114 &505616088
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1419,7 +1408,7 @@ RectTransform:
   m_Children:
   - {fileID: 1588296115}
   m_Father: {fileID: 457359145}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1443,6 +1432,7 @@ MonoBehaviour:
   priceItem: 50
   TextItem: {fileID: 1588296116}
   isBuy: 0
+  index: 0
 --- !u!114 &516556932
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1754,7 +1744,7 @@ RectTransform:
   m_Children:
   - {fileID: 1645302137}
   m_Father: {fileID: 457359145}
-  m_RootOrder: 10
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1778,6 +1768,7 @@ MonoBehaviour:
   priceItem: 900
   TextItem: {fileID: 1645302138}
   isBuy: 0
+  index: 3
 --- !u!114 &692870028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2973,7 +2964,7 @@ RectTransform:
   m_Children:
   - {fileID: 146869531}
   m_Father: {fileID: 457359145}
-  m_RootOrder: 8
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2997,6 +2988,7 @@ MonoBehaviour:
   priceItem: 800
   TextItem: {fileID: 146869532}
   isBuy: 0
+  index: 7
 --- !u!114 &1134206875
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3385,7 +3377,7 @@ RectTransform:
   m_Children:
   - {fileID: 1795501909}
   m_Father: {fileID: 457359145}
-  m_RootOrder: 4
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3409,6 +3401,7 @@ MonoBehaviour:
   priceItem: 300
   TextItem: {fileID: 1795501910}
   isBuy: 0
+  index: 6
 --- !u!114 &1245512345
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3674,7 +3667,7 @@ RectTransform:
   m_Children:
   - {fileID: 873201046}
   m_Father: {fileID: 457359145}
-  m_RootOrder: 7
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3698,6 +3691,7 @@ MonoBehaviour:
   priceItem: 150
   TextItem: {fileID: 873201047}
   isBuy: 0
+  index: 1
 --- !u!114 &1574821208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3961,7 +3955,7 @@ RectTransform:
   m_Children:
   - {fileID: 2110591498}
   m_Father: {fileID: 457359145}
-  m_RootOrder: 9
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3985,6 +3979,7 @@ MonoBehaviour:
   priceItem: 300
   TextItem: {fileID: 2110591499}
   isBuy: 0
+  index: 2
 --- !u!114 &1613961976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5110,14 +5105,14 @@ MonoBehaviour:
   nameItem: 
   priceItem: 0
   allitem:
-  - {fileID: 27132896}
-  - {fileID: 1245512342}
   - {fileID: 516556929}
-  - {fileID: 505616085}
   - {fileID: 1574821205}
-  - {fileID: 1134206872}
   - {fileID: 1613961973}
   - {fileID: 692870025}
+  - {fileID: 505616085}
+  - {fileID: 27132896}
+  - {fileID: 1245512342}
+  - {fileID: 1134206872}
   moneyText: {fileID: 960860289}
 --- !u!1 &1894976440
 GameObject:

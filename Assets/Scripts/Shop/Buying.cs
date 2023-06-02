@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -9,7 +10,7 @@ public class Buying : MonoBehaviour
     [HideInInspector]
     public int priceItem;
 
-    public static GameObject[] allitem;
+    public GameObject[] allitem;
     public TextMeshProUGUI moneyText;
     public class DataPlayer
     {
@@ -23,7 +24,7 @@ public class Buying : MonoBehaviour
         }
         else
         {
-            PlayerPrefs.SetInt("Money", 50);
+            PlayerPrefs.SetInt("Money", 5000);
             SaveGame();
             LoadGame();
         }
