@@ -9,7 +9,7 @@ public class Buying : MonoBehaviour
     public string nameItem;
     [HideInInspector]
     public int priceItem;
-
+    //public Item _Item;
     public GameObject[] allitem;
     public TextMeshProUGUI moneyText;
     public class DataPlayer
@@ -18,6 +18,7 @@ public class Buying : MonoBehaviour
     }
     private void Start()
     {
+        //_Item=FindObjectOfType<Item>();
         if (PlayerPrefs.HasKey("SaveGame"))
         {
             LoadGame();
@@ -60,6 +61,7 @@ public class Buying : MonoBehaviour
             moneyText.text = PlayerPrefs.GetInt("Money").ToString();
             SaveGame();
             LoadGame();
+            //_Item.Print();
         }
     }
 }

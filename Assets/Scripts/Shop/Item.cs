@@ -8,6 +8,7 @@ public class Item : MonoBehaviour
     public TextMeshProUGUI TextItem;
     public bool isBuy;
     public int index;
+    public TextMeshProUGUI gunText;
     public void BuyItem()
     {
         if (isBuy == false)
@@ -20,7 +21,10 @@ public class Item : MonoBehaviour
         if(isBuy == true)
         {
             PlayerPrefs.SetInt("CurrentGun",index);
-            //ScriptBuying.allitem[index].GetComponent<Item>().TextItem.text = "Выбрано";
         }
     }
+    /*public void Print()
+    {
+        gunText.text = ScriptBuying.allitem[index].GetComponent<Item>().TextItem.text;
+    }*/
 }

@@ -182,6 +182,7 @@ MonoBehaviour:
   TextItem: {fileID: 1331594380}
   isBuy: 0
   index: 5
+  gunText: {fileID: 0}
 --- !u!114 &27132899
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1280,6 +1281,7 @@ MonoBehaviour:
   TextItem: {fileID: 372012123}
   isBuy: 0
   index: 4
+  gunText: {fileID: 0}
 --- !u!114 &505616088
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1433,6 +1435,7 @@ MonoBehaviour:
   TextItem: {fileID: 1588296116}
   isBuy: 0
   index: 0
+  gunText: {fileID: 0}
 --- !u!114 &516556932
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1769,6 +1772,7 @@ MonoBehaviour:
   TextItem: {fileID: 1645302138}
   isBuy: 0
   index: 3
+  gunText: {fileID: 0}
 --- !u!114 &692870028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2989,6 +2993,7 @@ MonoBehaviour:
   TextItem: {fileID: 146869532}
   isBuy: 0
   index: 7
+  gunText: {fileID: 0}
 --- !u!114 &1134206875
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3402,6 +3407,7 @@ MonoBehaviour:
   TextItem: {fileID: 1795501910}
   isBuy: 0
   index: 6
+  gunText: {fileID: 0}
 --- !u!114 &1245512345
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3692,6 +3698,7 @@ MonoBehaviour:
   TextItem: {fileID: 873201047}
   isBuy: 0
   index: 1
+  gunText: {fileID: 0}
 --- !u!114 &1574821208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3980,6 +3987,7 @@ MonoBehaviour:
   TextItem: {fileID: 2110591499}
   isBuy: 0
   index: 2
+  gunText: {fileID: 0}
 --- !u!114 &1613961976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5037,8 +5045,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 100}
+  m_AnchoredPosition: {x: 0, y: -1.3371}
+  m_SizeDelta: {x: 200, y: 102.6741}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1857492925
 MonoBehaviour:

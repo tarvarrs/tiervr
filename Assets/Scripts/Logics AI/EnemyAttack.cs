@@ -32,7 +32,7 @@ public class EnemyAttack : MonoBehaviour
 
     private void UpdateCoolDOwn()
     {
-        Debug.Log(_timer);
+        //Debug.Log(_timer);
         if (CanAttack)
         {
             return;

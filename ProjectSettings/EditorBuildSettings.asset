@@ -27,14 +27,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Results.unity
     guid: 2583f31225c474ff38af8b4c86c9a483
   - enabled: 1
-    path: Assets/Scenes/GunChoose.unity
-    guid: 5981fadcf828b4269bd906e8b8518e78
-  - enabled: 1
     path: Assets/Scenes/Countdown.unity
     guid: 1154ee02ac48347c7a963ff12fe1e2f8
-  - enabled: 1
-    path: Assets/Scenes/GunChooseTest.unity
-    guid: b3bda064690704a2c858f5989c9f976a
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 961867e089d564116b45173fe480728e, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 32773f351544e49028c7b87e9438de5f, type: 2}
